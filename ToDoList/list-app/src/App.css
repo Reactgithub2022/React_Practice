@@ -1,0 +1,47 @@
+body{
+  background-color: rgb(130, 214, 214);
+}
+
+.app{
+  background-color: rgb(28, 136, 118);
+  min-height: 500px;
+  width:400px;
+  margin:40px auto;
+}
+
+#todo input{
+  background-color:rgb(15, 40, 109);
+  border:0;
+  width:200px;
+  height:50px;
+  padding:0 20px;
+  margin:20px;
+  font-size:18px;
+  border-radius: 11px;
+  color: #fff;
+}
+
+#todo h1{
+  color: #fff;
+  padding:0 20px;
+  font-family: 'Roboto';
+  padding-top: 15px;
+}
+
+#todo input::placeholder{
+  color:lightgray;
+}
+
+#todo input:focus,#todo button:focus{
+  outline: none;
+}
+
+#todo button{
+  height:49px;
+  width:80px;
+  border-radius: 11px;
+  background-color: rgb(204, 152, 19);
+  cursor: pointer;
+  font-weight: bolder;
+  color:#fff;
+}
